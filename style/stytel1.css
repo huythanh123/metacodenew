@@ -2071,10 +2071,6 @@
     width: 100%;
 }
 
-._8h4i {
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 ._as8y {
     height: 100%;
@@ -3983,7 +3979,7 @@
     }
 
     ._a5k6 {
-        padding-left: 24px
+        padding-left: 0px
     }
 
     ._a5k7 {
@@ -4039,7 +4035,7 @@
     }
 
     ._a5kj {
-        padding-right: 24px
+        padding-right: 0px
     }
 
     ._a5kk {
@@ -11603,7 +11599,7 @@ html[lang='ar'] ._2yz0 .rich-text ol {
 
 ._8h4i {
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover !important;
 }
 
 ._9zav {
@@ -15369,7 +15365,10 @@ html[lang='ar'] ._2yz0 .rich-text ol {
 .sp_Jtl6iGyDW5v.sx_0d7509 {
     background-position: 0 -71px
 }
-
+.row {
+    --bs-gutter-x: none!important;
+    --bs-gutter-y: 0;
+}
 .sp_Jtl6iGyDW5v.sx_38a6a8 {
     background-position: 0 -88px
 }
@@ -15915,6 +15914,17 @@ body {
     .icon2 {
         margin-right: 10px !important; /* Khoảng cách giữa icon và chữ */
     }
+    .Browse_Meta{
+        flex-direction: column !important;
+        font-size: 12px !important;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .abc{
+        margin-top: 10px;
+        margin-left: 0px!important;
+    }
 }
 
 /* Media Query cho màn hình nhỏ hơn 480px */
@@ -16028,7 +16038,7 @@ body {
     flex-direction: row;
 }
 .abc{
-    margin-left: 32px!important;
+    margin-left: 32px;
     padding: 11px 22px;
     border: 1px solid #1c2b33;
     border-radius: 50px;

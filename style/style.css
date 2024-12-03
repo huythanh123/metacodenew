@@ -1742,6 +1742,7 @@ section{
 }
 
 @media only screen and (max-width: 768px) {
+
     .banner__img {
         bottom: -120px;
         max-height: 350px;
