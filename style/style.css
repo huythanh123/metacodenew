@@ -23,6 +23,10 @@ body {
     align-items: center;
 }
 
+body{
+    font-family: "Optimistic", "Montserrat", "Helvetica", "Arial", "Noto Sans", sans-serif !important;
+  }
+
 
 
 
@@ -278,12 +282,15 @@ nav ul li:hover a {
         max-width: 740px;
         margin-left: 130px;
         display: none;
+        margin-top: -40px;
     }
    
     .container_menu_2 {
         max-width: 740px;
         margin-left: 130px;
         display: none;
+        margin-top: -40px;
+
     }
 
     
@@ -301,9 +308,10 @@ nav ul li:hover a {
         width: 45%; 
     }
     
-    .column h4 {
-        font-size: 16px;
+    .column .h4size {
         margin-bottom: 10px;
+        color: #000;
+        font-weight: bold;
     }
     
     .column ul {
@@ -1035,7 +1043,8 @@ section{
 
 .banner {
     width: 100%;
-    background-image: url("../images/banner11.jpg");
+    /* background-image: url("../images/banner11.jpg"); */
+    background-image: url("https://scontent.fdad3-5.fna.fbcdn.net/v/t39.8562-6/463618069_1796768081130161_153599110087280681_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=f537c7&_nc_ohc=-KM7fPOI8AEQ7kNvgGTMzlP&_nc_zt=14&_nc_ht=scontent.fdad3-5.fna&_nc_gid=AhC5FmX9rtQWQhkVoaFNHAi&oh=00_AYAeLY7OyHrC2CGk3YfOWJWA0HwZDRb5Hk0aCDx3FbWDUQ&oe=67523F7D");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
@@ -1046,6 +1055,10 @@ section{
     justify-content: center; /* Căn giữa theo chiều ngang */
     align-items: center; /* Căn giữa theo chiều dọc */
 
+}
+
+.sizeTexxt {
+    font-weight: bold !important;
 }
 
 .banner .overlay {
@@ -2246,7 +2259,7 @@ section{
 
 }
 
-@media (min-width: 2496px) and (max-width: 3440px) {
+@media (min-width: 2496px) and (max-width: 5440px) {
     .header-content {
         max-width: 1410px;
         margin: 0 auto;
@@ -2290,18 +2303,32 @@ section{
 
 @media (min-width: 1920px) and (max-width: 1920px) {
     .banner {
-        height: 1090px;
+        height: 1083px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* padding-bottom: 50px; */
+        padding-top: 40px;
     }
     .banner_width {
-        width: 70%;
+        width: 77%;
     }   
     .noidung_text {
-        width: 70%;
+        width: 74%;
+        font-weight: 500;
     }
     .noidung_text_2 {
-        width: 70%;
+        width: 75%;
+        font-size: 18px;
+        line-height: 150%;
     }
+    .header-content {
+        max-width: 1600px;
+    }
+    
 }
+
+
 
 @media (min-width: 2048px) and (max-width: 2048px) {
     .banner_width {
