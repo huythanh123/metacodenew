@@ -1044,7 +1044,7 @@ section{
 .banner {
     width: 100%;
     /* background-image: url("../images/banner11.jpg"); */
-    background-image: url("https://scontent.fdad3-5.fna.fbcdn.net/v/t39.8562-6/463618069_1796768081130161_153599110087280681_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=f537c7&_nc_ohc=-KM7fPOI8AEQ7kNvgGTMzlP&_nc_zt=14&_nc_ht=scontent.fdad3-5.fna&_nc_gid=AhC5FmX9rtQWQhkVoaFNHAi&oh=00_AYAeLY7OyHrC2CGk3YfOWJWA0HwZDRb5Hk0aCDx3FbWDUQ&oe=67523F7D");
+   background-image:url("../images/background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
